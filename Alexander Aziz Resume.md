@@ -16,7 +16,7 @@ Experienced Senior Software Engineer specializing in backend development with No
 - **DevOps:** Travis CI, Docker, Jenkins, Kubernetes, IBM Cloud Stack
 - **Version Control:** Git
 - **Agile Methodologies:** Sprint Planning, Test-Driven Development (TDD), Continuous Deployment
-- **Other Skills:** Rapidly learns new tools and technologies, experience with full product lifecycle, Complexity Assessment, Cross-Browser Development, Analytics
+- **Other Skills:** Ability to quickly learn new tools and technologies, experience with full product lifecycle, Complexity Assessment, Cross-Browser Development, Analytics
 
 ## Experience:
 
@@ -47,7 +47,7 @@ Experienced Senior Software Engineer specializing in backend development with No
 - Position: Project Lead
 - Led a team of four in developing Java versions of Jeopardy and Who Wants to Be a Millionaire, aiding in the training of new workers.
 - Designed and developed a web-based reference application using HTML and CSS to assist employees in troubleshooting, which remains in use at the help desk.
-- Orchestrated weekly status meetings to ensure project progress and equitable distribution of work among team members.
+- Conducted weekly status meetings to ensure project progress and equitable distribution of work among team members.
 
 ### UNCW Technology Assistance Center Student Worker (2012 - 2015)
 - Provided technical support to UNCW's student body, faculty, and staff, offering assistance with macOS, Windows, and troubleshooting.
@@ -65,7 +65,7 @@ Experienced Senior Software Engineer specializing in backend development with No
 - Unix/Linux System Administration Certification 2011 (O'Reilly School of Technology/University of Illinois)
 
 ## Honors and Awards:
-- 2023 Manager Choice Award
+- 2023 Productivity Catalyst Award
 - 2019 Unite to Get It Done Now Award (IBM)
 - 2016 Unite to Get It Done Now Award (IBM)
 - 2015 UNCW Senior Medallion Nomination
