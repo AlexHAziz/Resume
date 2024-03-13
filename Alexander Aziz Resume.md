@@ -53,6 +53,12 @@ Experienced Senior Software Engineer specializing in backend development with No
 - Provided technical support to UNCW's student body, faculty, and staff, offering assistance with macOS, Windows, and troubleshooting.
 - Utilized Remedy and Wendia's POB ticketing software to log and track technical issues, ensuring timely resolution and effective communication.
 
+## Volunteering/Outreach:
+- **Mentor, UNCW Technology Assistance Center Internship Program** (2019-2020)
+  - Mentored a student worker in developing an analytics tool as part of the internship program at UNCW's Technology Assistance Center.
+- **Guest Speaker, University of North Carolina at Wilmington**
+  - Delivered several talks to Computer Science undergraduates on topics related to career preparation and transitioning to the workforce after graduation.
+
 ## Education:
 - Bachelor of Science in Computer Science (Concentration in Business), University of North Carolina at Wilmington, 2015
   - GPA: 3.49
