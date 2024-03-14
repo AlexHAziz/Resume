@@ -1,120 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Alexander Aziz Resume.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
 <h1 id="alexander-aziz">Alexander Aziz</h1>
-<p>Phone: (919)-357-3303<br>Email: alexhaziz@gmail.com<br>LinkedIn: <a
-        href="linkedin.com/in/alexhaziz">linkedin.com/in/alexhaziz</a><br>Address: 1316 Dillion Lake Bnd, Leander TX,
-    78641 </p>
-<h2 id="summary-objective-">Summary/Objective:</h2>
-<p>Experienced Senior Software Engineer specializing in backend development with Node.js and full-stack development with
-    expertise in JavaScript/TypeScript, Angular, and Agile methodologies. Proven track record of delivering high-quality
-    solutions, leading cross-functional teams, and driving innovation in complex technical environments.</p>
-<h2 id="skills-">Skills:</h2>
+<p>Phone: (919)-357-3303<br>
+Email: alexhaziz@gmail.com<br>
+LinkedIn: <a href="https://www.linkedin.com/in/alexhaziz/">linkedin.com/in/alexhaziz</a><br>
+Address: 1316 Dillion Lake Bnd, Leander TX, 78641</p>
+<h2 id="summaryobjective">Summary/Objective:</h2>
+<p>Experienced Senior Software Engineer specializing in backend development with Node.js and full-stack development with expertise in JavaScript/TypeScript, Angular, and Agile methodologies. Proven track record of delivering high-quality solutions, leading cross-functional teams, and driving innovation in complex technical environments.</p>
+<h2 id="skills">Skills:</h2>
 <ul>
-    <li><strong>Backend Development:</strong> Node.js, RESTful APIs, Cloudant, CouchDB, SQL</li>
-    <li><strong>Frontend Development:</strong> Angular, AngularJS, HTML/CSS, SASS</li>
-    <li><strong>Programming Languages:</strong> JavaScript, TypeScript, Ruby, Java, Python. Skilled at quickly learning
-        new languages.</li>
-    <li><strong>Async Programming:</strong> Proficient in asynchronous programming techniques for efficient and
-        responsive application development.</li>
-    <li><strong>Unit Testing Frameworks:</strong> Jest, Jasmine, Karma, RSpec</li>
-    <li><strong>DevOps:</strong> Travis CI, Docker, Jenkins, Kubernetes, IBM Cloud Stack</li>
-    <li><strong>Version Control:</strong> Git</li>
-    <li><strong>Agile Methodologies:</strong> Sprint Planning, Test-Driven Development (TDD), Continuous Deployment</li>
-    <li><strong>Other Skills:</strong> Ability to quickly learn new tools and technologies, experience with full product
-        lifecycle, Complexity Assessment, Cross-Browser Development, Analytics</li>
+<li><strong>Backend Development:</strong> Node.js, RESTful APIs, Cloudant, CouchDB, NoSQL DBS</li>
+<li><strong>Frontend Development:</strong> Angular, AngularJS, HTML/CSS, SASS</li>
+<li><strong>Programming Languages:</strong> JavaScript, TypeScript, Ruby, Java, Python. Skilled at quickly learning new languages.</li>
+<li><strong>Async Programming:</strong> Proficient in asynchronous programming techniques for efficient and responsive application development.</li>
+<li><strong>Unit Testing Frameworks:</strong> Jest, Jasmine, Karma, RSpec</li>
+<li><strong>DevOps:</strong> Travis CI, Docker, Jenkins, Kubernetes, IBM Cloud Stack</li>
+<li><strong>Version Control:</strong> Git</li>
+<li><strong>Agile Methodologies:</strong> Sprint Planning, Test-Driven Development (TDD), Continuous Deployment</li>
+<li><strong>Other Skills:</strong> Ability to quickly learn new tools and technologies, experience with full product lifecycle, Complexity Assessment, Cross-Browser Development, Analytics</li>
 </ul>
-<h2 id="experience-">Experience:</h2>
-<h3 id="ibm-senior-software-engineer-january-2020-present-">IBM - Senior Software Engineer (January 2020 - Present)</h3>
+<h2 id="experience">Experience:</h2>
+<h3 id="ibm---senior-software-engineer-january-2020---present">IBM - Senior Software Engineer (January 2020 - Present)</h3>
 <ul>
-    <li>Promoted to Senior Software Engineer in recognition of exceptional performance and leadership skills.</li>
-    <li>Led architectural improvements to Provider Workbench, optimizing performance, scalability, and maintainability
-        through the implementation of best practices and innovative solutions.</li>
-    <li>Successfully integrated Provider Workbench with multiple Content Management Systems (CMS), including Drupal and
-        Adobe Experience Manager (AEM), ensuring seamless data exchange and content synchronization.</li>
-    <li>Played a key role in migrating legacy systems to microservice-oriented architecture, enhancing system
-        flexibility and agility.</li>
-    <li>Transformed the Common Translation Service (CTS) by integrating multiple translation providers at the request of
-        business teams, optimizing costs and improving translation efficiency.</li>
-    <li>Led the recent integration with Smartling, resulting in a significant cost reduction from an average of 20 cents
-        per word to 12 cents per word for human translations and 5 hundredths of a cent per character for machine
-        translations.</li>
-    <li>Achieved a remarkable reduction in turnaround time, with translations now delivered back to the source within
-        approximately 5 minutes, compared to the previous average of 11 days.</li>
-    <li>Led all repositories I worked on at IBM as the leading contributor.</li>
-    <li>Led the decommissioning of several legacy parts of the Translation stack for CTS, including 2 UI repositories,
-        and ensured that the whole process was fully automated end-to-end.</li>
+<li>Promoted to Senior Software Engineer in recognition of exceptional performance and leadership skills.</li>
+<li>Led architectural improvements to Provider Workbench, optimizing performance, scalability, and maintainability through the implementation of best practices and innovative solutions.</li>
+<li>Successfully integrated Provider Workbench with multiple Content Management Systems (CMS), including Drupal and Adobe Experience Manager (AEM), ensuring seamless data exchange and content synchronization.</li>
+<li>Played a key role in migrating legacy systems to microservice-oriented architecture, enhancing system flexibility and agility.</li>
+<li>Transformed the Common Translation Service (CTS) by integrating multiple translation providers at the request of business teams, optimizing costs and improving translation efficiency.</li>
+<li>Led the recent integration with Smartling, resulting in a significant cost reduction from an average of 20 cents per word to 12 cents per word for human translations and 5 hundredths of a cent per character for machine translations.</li>
+<li>Achieved a remarkable reduction in turnaround time, with translations now delivered back to the source within approximately 5 minutes, compared to the previous average of 11 days.</li>
+<li>Led all repositories I worked on at IBM as the leading contributor.</li>
+<li>Led the decommissioning of several legacy parts of the Translation stack for CTS, including 2 UI repositories, and ensured that the whole process was fully automated end-to-end.</li>
 </ul>
-<h3 id="ibm-software-engineer-july-2015-december-2019-">IBM - Software Engineer (July 2015 - December 2019)</h3>
+<h3 id="ibm---software-engineer-july-2015---december-2019">IBM - Software Engineer (July 2015 - December 2019)</h3>
 <ul>
-    <li>Joined IBM as a Software Engineer, contributing to the development and maintenance of various projects within
-        the Digital Marketplace Team.</li>
-    <li>Collaborated closely with cross-functional teams to define technical requirements, resolve complex issues, and
-        prioritize development efforts in alignment with business objectives.</li>
-    <li>Led the architectural design and implementation of RESTful APIs on Node.js for backend services, ensuring
-        robustness, scalability, and security.</li>
-    <li>Received accolades for contributions to the successful launch of Provider Workbench, a universal onboarding
-        solution for IBM&#39;s digital marketplace.</li>
+<li>Joined IBM as a Software Engineer, contributing to the development and maintenance of various projects within the Digital Marketplace Team.</li>
+<li>Collaborated closely with cross-functional teams to define technical requirements, resolve complex issues, and prioritize development efforts in alignment with business objectives.</li>
+<li>Led the architectural design and implementation of RESTful APIs on Node.js for backend services, ensuring robustness, scalability, and security.</li>
+<li>Received accolades for contributions to the successful launch of Provider Workbench, a universal onboarding solution for IBM's digital marketplace.</li>
 </ul>
-<h3 id="apple-software-engineering-intern-may-2014-august-2014-">Apple - Software Engineering Intern (May 2014 - August
-    2014)</h3>
+<h3 id="apple---software-engineering-intern-may-2014---august-2014">Apple - Software Engineering Intern (May 2014 - August 2014)</h3>
 <ul>
-    <li>Position: Software Engineer, Interactive Media Group</li>
-    <li>Developed Ruby-based analytical software as part of an Agile team, employing test-driven development principles
-        for robustness and efficiency.</li>
-    <li>Implemented map/reduce jobs to process raw data into usable data cubes, contributing to the development of big
-        data structures.</li>
-    <li>Collaborated closely with team members to ensure timely delivery of high-quality software solutions.</li>
+<li>Position: Software Engineer, Interactive Media Group</li>
+<li>Developed Ruby-based analytical software as part of an Agile team, employing test-driven development principles for robustness and efficiency.</li>
+<li>Implemented map/reduce jobs to process raw data into usable data cubes, contributing to the development of big data structures.</li>
+<li>Collaborated closely with team members to ensure timely delivery of high-quality software solutions.</li>
 </ul>
-<h3 id="uncw-technology-assistance-center-internship-project-lead-may-2013-august-2013-">UNCW Technology Assistance
-    Center Internship - Project Lead (May 2013 - August 2013)</h3>
+<h3 id="uncw-technology-assistance-center-internship---project-lead-may-2013---august-2013">UNCW Technology Assistance Center Internship - Project Lead (May 2013 - August 2013)</h3>
 <ul>
-    <li>Position: Project Lead</li>
-    <li>Led a team of four in developing Java versions of Jeopardy and Who Wants to Be a Millionaire, aiding in the
-        training of new workers.</li>
-    <li>Designed and developed a web-based reference application using HTML and CSS to assist employees in
-        troubleshooting, which remains in use at the help desk.</li>
-    <li>Conducted weekly status meetings to ensure project progress and equitable distribution of work among team
-        members.</li>
+<li>Position: Project Lead</li>
+<li>Led a team of four in developing Java versions of Jeopardy and Who Wants to Be a Millionaire, aiding in the training of new workers.</li>
+<li>Designed and developed a web-based reference application using HTML and CSS to assist employees in troubleshooting, which remains in use at the help desk.</li>
+<li>Conducted weekly status meetings to ensure project progress and equitable distribution of work among team members.</li>
 </ul>
-<h3 id="uncw-technology-assistance-center-student-worker-2012-2015-">UNCW Technology Assistance Center Student Worker
-    (2012 - 2015)</h3>
+<h3 id="uncw-technology-assistance-center-student-worker-2012---2015">UNCW Technology Assistance Center Student Worker (2012 - 2015)</h3>
 <ul>
-    <li>Provided technical support to UNCW&#39;s student body, faculty, and staff, offering assistance with macOS,
-        Windows, and troubleshooting.</li>
-    <li>Utilized Remedy and Wendia&#39;s POB ticketing software to log and track technical issues, ensuring timely
-        resolution and effective communication.</li>
+<li>Provided technical support to UNCW's student body, faculty, and staff, offering assistance with macOS, Windows, and troubleshooting.</li>
+<li>Utilized Remedy and Wendia's POB ticketing software to log and track technical issues, ensuring timely resolution and effective communication.</li>
 </ul>
-<h2 id="volunteering-outreach-">Volunteering/Outreach:</h2>
+<h2 id="volunteeringoutreach">Volunteering/Outreach:</h2>
 <ul>
-    <li><strong>Mentor, UNCW Technology Assistance Center Internship Program</strong> (2019-2020)<ul>
-            <li>Mentored a student worker in developing an analytics tool as part of the internship program at
-                UNCW&#39;s Technology Assistance Center.</li>
-        </ul>
-    </li>
-    <li><strong>Guest Speaker, University of North Carolina at Wilmington</strong>
-        <ul>
-            <li>Delivered several talks to Computer Science undergraduates on topics related to career preparation and
-                transitioning to the workforce after graduation.</li>
-        </ul>
-    </li>
-</ul>
-<h2 id="education-">Education:</h2>
+<li><strong>Mentor, UNCW Technology Assistance Center Internship Program</strong> (2019-2020)
 <ul>
-    <li>Bachelor of Science in Computer Science (Concentration in Business), University of North Carolina at Wilmington,
-        2015<ul>
-            <li>GPA: 3.49</li>
-        </ul>
-    </li>
-    <li>Unix/Linux System Administration Certification 2011 (O&#39;Reilly School of Technology/University of Illinois)
-    </li>
+<li>Mentored a student worker in developing an analytics tool as part of the internship program at UNCW's Technology Assistance Center.</li>
 </ul>
-<h2 id="honors-and-awards-">Honors and Awards:</h2>
+</li>
+<li><strong>Guest Speaker, University of North Carolina at Wilmington</strong>
 <ul>
-    <li>2023 Productivity Catalyst Award</li>
-    <li>2019 Unite to Get It Done Now Award (IBM)</li>
-    <li>2016 Unite to Get It Done Now Award (IBM)</li>
-    <li>2015 UNCW Senior Medallion Nomination</li>
-    <li>2015 April Varsity Award (UNCW Technology Assistance Center)</li>
-    <li>2014 March Employee of the Month (UNCW Technology Assistance Center)</li>
-    <li>2013 Member of UNCW Student IT Advisory Council</li>
-    <li>2013 Certificate of Innovation Award (UNCW Technology Assistance Center)</li>
-    <li>2012 Fall Best customer feedback award (UNCW Technology Assistance Center)</li>
+<li>Delivered several talks to Computer Science undergraduates on topics related to career preparation and transitioning to the workforce after graduation.</li>
 </ul>
+</li>
+</ul>
+<h2 id="education">Education:</h2>
+<ul>
+<li>Bachelor of Science in Computer Science (Concentration in Business), University of North Carolina at Wilmington, 2015
+<ul>
+<li>GPA: 3.49</li>
+</ul>
+</li>
+<li>Unix/Linux System Administration Certification 2011 (O'Reilly School of Technology/University of Illinois)</li>
+</ul>
+<h2 id="honors-and-awards">Honors and Awards:</h2>
+<ul>
+<li>2023 Productivity Catalyst Award</li>
+<li>2019 Unite to Get It Done Now Award (IBM)</li>
+<li>2016 Unite to Get It Done Now Award (IBM)</li>
+<li>2015 UNCW Senior Medallion Nomination</li>
+<li>2015 April Varsity Award (UNCW Technology Assistance Center)</li>
+<li>2014 March Employee of the Month (UNCW Technology Assistance Center)</li>
+<li>2013 Member of UNCW Student IT Advisory Council</li>
+<li>2013 Certificate of Innovation Award (UNCW Technology Assistance Center)</li>
+<li>2012 Fall Best customer feedback award (UNCW Technology Assistance Center)</li>
+</ul>
+
+</body>
+</html>
