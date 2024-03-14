@@ -1,7 +1,7 @@
 # Alexander Aziz
 Phone: (919)-357-3303  
 Email: alexhaziz@gmail.com  
-LinkedIn: [linkedin.com/in/alexhaziz](linkedin.com/in/alexhaziz)  
+LinkedIn: [linkedin.com/in/alexhaziz](https://www.linkedin.com/in/alexhaziz/)  
 Address: 1316 Dillion Lake Bnd, Leander TX, 78641  
 
 ## Summary/Objective:
