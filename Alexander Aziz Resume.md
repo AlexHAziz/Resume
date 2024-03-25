@@ -5,13 +5,13 @@ LinkedIn: [linkedin.com/in/alexhaziz](https://www.linkedin.com/in/alexhaziz/)
 Address: 1316 Dillion Lake Bnd, Leander TX, 78641  
 
 ## Summary/Objective:
-Experienced Senior Software Engineer specializing in backend development with Node.js and full-stack development with expertise in JavaScript/TypeScript, Angular, and Agile methodologies. Proven track record of delivering high-quality solutions, leading cross-functional teams, and driving innovation in complex technical environments.
+Experienced Senior Software Engineer specializing in backend and full-stack development with expertise in many languages, frameworks, and Agile development. Proven track record of delivering high-quality solutions, leading cross-functional teams, and driving innovation in complex technical environments.
 
 ## Skills:
-- **Backend Development:** Node.js, RESTful APIs, Cloudant, CouchDB, NoSQL DBS
-- **Frontend Development:** Angular, AngularJS, HTML/CSS, SASS
+- **Backend Development:** Node.js, Ruby on Rails, Django, NoSQL DBS, SQL
+- **Frontend Development:** Angular, React, HTML/CSS, SASS
 - **Programming Languages:** JavaScript, TypeScript, Ruby, Java, Python. Skilled at quickly learning new languages.
-- **Async Programming:** Proficient in asynchronous programming techniques for efficient and responsive application development.
+- **Async Programming:** Proficient in asynchronous programming to create responsive applications.
 - **Unit Testing Frameworks:** Jest, Jasmine, Karma, RSpec
 - **DevOps:** Travis CI, Docker, Jenkins, Kubernetes, IBM Cloud Stack
 - **Version Control:** Git
