@@ -8,19 +8,25 @@ Address: 1316 Dillion Lake Bnd, Leander TX, 78641
 Experienced Senior Software Engineer specializing in backend and full-stack development with expertise in many languages, frameworks, and Agile development. Proven track record of delivering high-quality solutions, leading cross-functional teams, and driving innovation in complex technical environments.
 
 ## Skills:
-- **Backend Development:** Node.js, Ruby on Rails, Django, NoSQL DBS, SQL
-- **Frontend Development:** Angular, React, HTML/CSS, SASS
-- **Programming Languages:** JavaScript, TypeScript, Ruby, Java, Python. Skilled at quickly learning new languages.
+- **Programming Languages:** JavaScript, TypeScript, Ruby, Python and Java. Skilled at quickly learning new languages.
+- **Backend Development:** Node.js, API development, NoSQL DBS, SQL
+- **Frontend Development:** Angular, React, JS/TS frameworks, HTML/CSS
 - **Async Programming:** Proficient in asynchronous programming to create responsive applications.
 - **Unit Testing Frameworks:** Jest, Jasmine, Karma, RSpec
 - **DevOps:** Travis CI, Docker, Jenkins, Kubernetes, IBM Cloud Stack
-- **Version Control:** Git
+- **Version Control:** Git Expert
 - **Agile Methodologies:** Sprint Planning, Test-Driven Development (TDD), Continuous Deployment
-- **Other Skills:** Ability to quickly learn new tools and technologies, experience with full product lifecycle, Complexity Assessment, Cross-Browser Development, Analytics
+- **Other Skills:** Ability to quickly learn new tools and technologies, experience with full product lifecycle, Complexity Assessment, Cross-Browser Development, Analytics, Code Optimization, Vulnerability Auditing, Technical Leadership, Software Architecture.
 
 ## Experience:
 
-### IBM - Senior Software Engineer (January 2020 - Present)
+### Oracle - Senior Software Engineer (May 2020 - Present)
+- Joined the Network Orchestration Team within OCI which that develops software tools for the maintance and expansion of the phyical network
+- Built a UI to help agument the existing CLI of the core applications
+- Fully implmented and ran the SCRUM process for the team
+- Mentored and directed an internship project which started the same day I joined the organization
+
+### IBM - Senior Software Engineer (January 2020 - April 2024)
 - Promoted to Senior Software Engineer in recognition of exceptional performance and leadership skills.
 - Led architectural improvements to Provider Workbench, optimizing performance, scalability, and maintainability through the implementation of best practices and innovative solutions.
 - Successfully integrated Provider Workbench with multiple Content Management Systems (CMS), including Drupal and Adobe Experience Manager (AEM), ensuring seamless data exchange and content synchronization.
